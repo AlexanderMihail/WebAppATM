@@ -5,12 +5,21 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-    <servlet-name>TestServlet</servlet-name>
-    <servlet-class>org.example.atm.TestServlet</servlet-class>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>org.example.atmUI.UserLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/user-login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Operation</servlet-name>
+    <servlet-class>org.example.atmUI.Operation</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>TestServlet</servlet-name>
-    <url-pattern>/servlet</url-pattern>
+    <servlet-name>Operation</servlet-name>
+    <url-pattern>/operation</url-pattern>
   </servlet-mapping>
 </web-app>
