@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>WebAppATM Test Page</h2>
 </body>
 </html>
