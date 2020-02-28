@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc6091c-ca34-4ac2-9ddb-757d5b4f6333" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -35,17 +39,64 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/surefire-reports/DatabaseTest.txt" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.atm" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="org.example.atm" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DEV\java\WebAppATM\src" />
       <recent name="C:\Java\ATM\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.WebAppATM [test]">
+    <configuration name="DatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest" />
+      <module name="WebAppATM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAppATM [test]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="WebAppATM [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -73,6 +124,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.WebAppATM [tomcat7:run]" />
+      <item itemvalue="Maven.WebAppATM [test]" />
+      <item itemvalue="Application.DatabaseTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DatabaseTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -88,57 +149,127 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="236" width="1092" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582592583999">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="343" y="142" key="#Project_Structure" timestamp="1582885919508">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state x="343" y="142" key="#Project_Structure/0.0.1500.960@0.0.1500.960" timestamp="1582885919508" />
+    <state x="372" y="102" key="#WebAppATM_[test]" timestamp="1582889328679">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="372" y="102" key="#WebAppATM_[test]/0.0.1500.960@0.0.1500.960" timestamp="1582889328679" />
+    <state x="323" y="195" width="1092" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582890194414">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="323" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1582890194414" />
     <state x="414" y="236" width="1092" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1582592583999" />
+    <state x="510" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582887554165">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="510" y="290" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1582887554165" />
+    <state x="482" y="264" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582889107583">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="482" y="264" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1500.960@0.0.1500.960" timestamp="1582889107583" />
+    <state x="488" y="172" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582885989681">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="488" y="172" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1500.960@0.0.1500.960" timestamp="1582885989681" />
+    <state x="550" y="349" width="398" height="264" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582889224232">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="550" y="349" width="398" height="264" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1500.960@0.0.1500.960" timestamp="1582889224232" />
+    <state x="416" y="79" key="CommitChangelistDialog2" timestamp="1582891318268">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="416" y="79" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1582891318268" />
     <state width="455" height="466" key="DebuggerActiveHint" timestamp="1582596400923">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="455" height="466" key="DebuggerActiveHint/0.0.1920.1160@0.0.1920.1160" timestamp="1582596400923" />
-    <state width="1876" height="390" key="GridCell.Tab.0.bottom" timestamp="1582609863688">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="531" y="238" key="FileChooserDialogImpl" timestamp="1582889393130">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state x="531" y="238" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1582889393130" />
+    <state width="1146" height="297" key="GridCell.Tab.0.bottom" timestamp="1582891375932">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1146" height="297" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1582891375932" />
     <state width="1876" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863688" />
-    <state width="1876" height="390" key="GridCell.Tab.0.center" timestamp="1582609863688">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1146" height="297" key="GridCell.Tab.0.center" timestamp="1582891375932">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1146" height="297" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1582891375932" />
     <state width="1876" height="390" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863688" />
-    <state width="1876" height="390" key="GridCell.Tab.0.left" timestamp="1582609863688">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1146" height="297" key="GridCell.Tab.0.left" timestamp="1582891375932">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1146" height="297" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1582891375932" />
     <state width="1876" height="390" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863688" />
-    <state width="1876" height="390" key="GridCell.Tab.0.right" timestamp="1582609863688">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1146" height="297" key="GridCell.Tab.0.right" timestamp="1582891375932">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1146" height="297" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1582891375932" />
     <state width="1876" height="390" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863688" />
-    <state width="1876" height="390" key="GridCell.Tab.1.bottom" timestamp="1582609863689">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1147" height="297" key="GridCell.Tab.1.bottom" timestamp="1582891375733">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1147" height="297" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1582891375733" />
     <state width="1876" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863689" />
-    <state width="1876" height="390" key="GridCell.Tab.1.center" timestamp="1582609863689">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1147" height="297" key="GridCell.Tab.1.center" timestamp="1582891375732">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1147" height="297" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1582891375732" />
     <state width="1876" height="390" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863689" />
-    <state width="1876" height="390" key="GridCell.Tab.1.left" timestamp="1582609863688">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1147" height="297" key="GridCell.Tab.1.left" timestamp="1582891375732">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1147" height="297" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1582891375732" />
     <state width="1876" height="390" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863688" />
-    <state width="1876" height="390" key="GridCell.Tab.1.right" timestamp="1582609863689">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1147" height="297" key="GridCell.Tab.1.right" timestamp="1582891375733">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state width="1147" height="297" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1582891375733" />
     <state width="1876" height="390" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1582609863689" />
     <state x="463" y="210" key="SettingsEditor" timestamp="1582592058576">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="463" y="210" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1582592058576" />
+    <state x="522" y="200" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582887931922">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="522" y="200" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.960@0.0.1500.960" timestamp="1582887931922" />
     <state x="667" y="214" width="585" height="732" key="find.popup" timestamp="1582604062658">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="667" y="214" width="585" height="732" key="find.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1582604062658" />
+    <state x="175" y="107" key="new project wizard" timestamp="1582888644385">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="175" y="107" key="new project wizard/0.0.1500.960@0.0.1500.960" timestamp="1582888644385" />
     <state x="616" y="265" key="run.anything.popup" timestamp="1582598056980">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="616" y="265" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1582598056980" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DatabaseTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DatabaseTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DatabaseTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
