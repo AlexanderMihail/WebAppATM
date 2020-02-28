@@ -1,5 +1,6 @@
 package org.example.atm;
 
+import java.util.Arrays;
 import java.util.Base64;
 
 public class Database {
@@ -15,10 +16,7 @@ public class Database {
         String[] decodedStrings = new String(Base64.getDecoder().decode(token)).split(":");
         String card = decodedStrings[0];
         String pin = decodedStrings[1];
-        for (User user : users)
-            if (card.equals(user.account.cardNumber) && user.pin.equals(pin))
-                return user;
-        return null;
+        return Arrays.stream(users).filter(x -> card.equals(x.account.cardNumber) && pin.equals(x.pin)).findFirst().orElse(null);
     }
     public static int alterBalance(String token, int value)
     {
